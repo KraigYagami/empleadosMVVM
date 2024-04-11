@@ -1,0 +1,92 @@
+[
+    {
+      "id": "1",
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "johndoe@example.com",
+      "gender": "Male",
+      "department": "Sales",
+      "avatar": "https://example.com/avatar1.jpg"
+    },
+    {
+      "id": "2",
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "email": "janesmith@example.com",
+      "gender": "Female",
+      "department": "Marketing",
+      "avatar": "https://example.com/avatar2.jpg"
+    },
+    {
+      "id": "3",
+      "first_name": "Mike",
+      "last_name": "Johnson",
+      "email": "mikejohnson@example.com",
+      "gender": "Male",
+      "department": "Accounting",
+      "avatar": "https://example.com/avatar3.jpg"
+    },
+    {
+      "id": "4",
+      "first_name": "Emily",
+      "last_name": "Davis",
+      "email": "emilydavis@example.com",
+      "gender": "Female",
+      "department": "Finance",
+      "avatar": "https://example.com/avatar4.jpg"
+    },
+    {
+      "id": "5",
+      "first_name": "Alex",
+      "last_name": "Wilson",
+      "email": "alexwilson@example.com",
+      "gender": "Male",
+      "department": "Accounting",
+      "avatar": "https://example.com/avatar5.jpg"
+    },
+    {
+      "id": "6",
+      "first_name": "Sarah",
+      "last_name": "Anderson",
+      "email": "sarahanderson@example.com",
+      "gender": "Female",
+      "department": "Operations",
+      "avatar": "https://example.com/avatar6.jpg"
+    },
+    {
+      "id": "7",
+      "first_name": "Matt",
+      "last_name": "Thompson",
+      "email": "mattthompson@example.com",
+      "gender": "Male",
+      "department": "Sales",
+      "avatar": "https://example.com/avatar7.jpg"
+    },
+    {
+      "id": "8",
+      "first_name": "Olivia",
+      "last_name": "Clark",
+      "email": "oliviaclark@example.com",
+      "gender": "Female",
+      "department": "Marketing",
+      "avatar": "https://example.com/avatar8.jpg"
+    },
+    {
+      "id": "9",
+      "first_name": "Chris",
+      "last_name": "Lee",
+      "email": "chrislee@example.com",
+      "gender": "Male",
+      "department": "Accounting",
+      "avatar": "https://example.com/avatar9.jpg"
+    },
+    {
+      "id": "10",
+      "first_name": "Grace",
+      "last_name": "Walker",
+      "email": "gracewalker@example.com",
+      "gender": "Female",
+      "department": "Finance",
+      "avatar": "https://example.com/avatar10.jpg"
+    }
+]
