@@ -10,24 +10,14 @@ import SwiftUI
 
 @Observable
 final class EmployeeLogic {
-    static let shared = EmployeeLogic()
 
     let persistence: PersistenceInterator
 
-    var employees: [Employee]
-
-    var showAlert = false
-    var message = String()
-
     init(persistence: PersistenceInterator = Persistence()) {
         self.persistence = persistence
+    }
 
-        do {
-            employees = try persistence.loadEmployees()
-        } catch {
-            employees = []
-            message = error.localizedDescription
-            showAlert.toggle()
-        }
+    func getEmployees() throws -> [Employee] {
+        return try persistence.loadEmployees()
     }
 }
