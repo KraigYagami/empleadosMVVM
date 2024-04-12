@@ -14,10 +14,8 @@ struct ContentView: View {
 
     var body: some View {
 
-        @Bindable var viewModelBindable = viewModel
-
         NavigationStack {
-            List(viewModelBindable.employees) { employee in
+            List(viewModel.employees) { employee in
                 NavigationLink(value: employee.id) {
                     EmployeeCell(employee: employee)
                 }
@@ -29,7 +27,7 @@ struct ContentView: View {
             })
             .alert(
                 "Application Error",
-                isPresented: $viewModelBindable.showAlert
+                isPresented: $viewModel.showAlert
             ) {
                 Button("OK", role: .cancel) { }
             } message: {
@@ -41,6 +39,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView(viewModel: GestionViewModel.preview)
-//    ContentView()
-//        .environment(GestionViewModel.preview)
 }

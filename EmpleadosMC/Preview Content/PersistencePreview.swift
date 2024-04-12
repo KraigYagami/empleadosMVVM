@@ -18,7 +18,7 @@ struct PersistencePreview: PersistenceInterator {
 }
 
 extension GestionViewModel {
-    static let preview = GestionViewModel(employeeLogic: EmployeeLogic(persistence: PersistencePreview()))
+    static let preview = GestionViewModel(getEmployeesUseCase: GetEmployeesUseCase(persistence: PersistencePreview()))
 }
 
 extension Employee {

@@ -9,20 +9,20 @@ import Foundation
 
 @Observable
 final class GestionViewModel {
-    var employeeLogic: EmployeeLogic
+    var getEmployeesUseCase: GetEmployeesUseCase
 
     var employees: [Employee] = []
     var showAlert = false
     var message = String()
 
-    init(employeeLogic: EmployeeLogic = EmployeeLogic()) {
-        self.employeeLogic = employeeLogic
+    init(getEmployeesUseCase: GetEmployeesUseCase = GetEmployeesUseCase()) {
+        self.getEmployeesUseCase = getEmployeesUseCase
         getEmployees()
     }
 
     func getEmployees() {
         do {
-            employees = try employeeLogic.getEmployees()
+            employees = try getEmployeesUseCase.getEmployees()
         } catch {
             showAlert = true
             message = error.localizedDescription

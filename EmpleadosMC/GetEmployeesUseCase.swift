@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 @Observable
-final class EmployeeLogic {
+final class GetEmployeesUseCase {
 
     let persistence: PersistenceInterator
 

@@ -18,7 +18,7 @@
 		1D3454EC2BB52E4000763BE8 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454EB2BB52E4000763BE8 /* Department.swift */; };
 		1D3454EE2BB52F3600763BE8 /* PersistenceInterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454ED2BB52F3600763BE8 /* PersistenceInterator.swift */; };
 		1D3454F02BB531EC00763BE8 /* PersistencePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454EF2BB531EC00763BE8 /* PersistencePreview.swift */; };
-		1D3454F22BB532B600763BE8 /* EmployeeLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454F12BB532B600763BE8 /* EmployeeLogic.swift */; };
+		1D3454F22BB532B600763BE8 /* GetEmployeesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454F12BB532B600763BE8 /* GetEmployeesUseCase.swift */; };
 		1D3454F42BB5367300763BE8 /* GestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454F32BB5367300763BE8 /* GestionViewModel.swift */; };
 		1D3454F62BB53A3200763BE8 /* EmployeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454F52BB53A3200763BE8 /* EmployeeCell.swift */; };
 		1D3454F82BB53F8C00763BE8 /* DetailEmployee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3454F72BB53F8C00763BE8 /* DetailEmployee.swift */; };
@@ -37,7 +37,7 @@
 		1D3454EB2BB52E4000763BE8 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
 		1D3454ED2BB52F3600763BE8 /* PersistenceInterator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceInterator.swift; sourceTree = "<group>"; };
 		1D3454EF2BB531EC00763BE8 /* PersistencePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistencePreview.swift; sourceTree = "<group>"; };
-		1D3454F12BB532B600763BE8 /* EmployeeLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeLogic.swift; sourceTree = "<group>"; };
+		1D3454F12BB532B600763BE8 /* GetEmployeesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetEmployeesUseCase.swift; sourceTree = "<group>"; };
 		1D3454F32BB5367300763BE8 /* GestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestionViewModel.swift; sourceTree = "<group>"; };
 		1D3454F52BB53A3200763BE8 /* EmployeeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCell.swift; sourceTree = "<group>"; };
 		1D3454F72BB53F8C00763BE8 /* DetailEmployee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEmployee.swift; sourceTree = "<group>"; };
@@ -76,8 +76,8 @@
 				1D3454CB2BB5264100763BE8 /* EmpleadosMCApp.swift */,
 				1D3454E62BB52C5300763BE8 /* Views */,
 				1D3454E52BB52C2300763BE8 /* ViewModel */,
-				1D3454E32BB52C0200763BE8 /* ModelLogic */,
-				1D3454E42BB52C0C00763BE8 /* Interactor */,
+				1D3454E32BB52C0200763BE8 /* UseCases */,
+				1D3454E42BB52C0C00763BE8 /* Repository */,
 				1D3454D92BB5277400763BE8 /* Model */,
 				1D3454DA2BB527A900763BE8 /* Resources */,
 				1D3454D12BB5264300763BE8 /* Preview Content */,
@@ -114,20 +114,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		1D3454E32BB52C0200763BE8 /* ModelLogic */ = {
+		1D3454E32BB52C0200763BE8 /* UseCases */ = {
 			isa = PBXGroup;
 			children = (
-				1D3454F12BB532B600763BE8 /* EmployeeLogic.swift */,
+				1D3454F12BB532B600763BE8 /* GetEmployeesUseCase.swift */,
 			);
-			name = ModelLogic;
+			name = UseCases;
 			sourceTree = "<group>";
 		};
-		1D3454E42BB52C0C00763BE8 /* Interactor */ = {
+		1D3454E42BB52C0C00763BE8 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
 				1D3454ED2BB52F3600763BE8 /* PersistenceInterator.swift */,
 			);
-			name = Interactor;
+			name = Repository;
 			sourceTree = "<group>";
 		};
 		1D3454E52BB52C2300763BE8 /* ViewModel */ = {
@@ -225,7 +225,7 @@
 				1D3454CE2BB5264100763BE8 /* ContentView.swift in Sources */,
 				1D3454EC2BB52E4000763BE8 /* Department.swift in Sources */,
 				1D3454E82BB52C8B00763BE8 /* Employee.swift in Sources */,
-				1D3454F22BB532B600763BE8 /* EmployeeLogic.swift in Sources */,
+				1D3454F22BB532B600763BE8 /* GetEmployeesUseCase.swift in Sources */,
 				1D3454CC2BB5264100763BE8 /* EmpleadosMCApp.swift in Sources */,
 				1D3454EE2BB52F3600763BE8 /* PersistenceInterator.swift in Sources */,
 				1D3454F02BB531EC00763BE8 /* PersistencePreview.swift in Sources */,
